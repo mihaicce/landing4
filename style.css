@@ -28,6 +28,9 @@
     font-size: 0.7rem;
     list-style: none;
 }
+.buttons li{
+    padding: 0.5rem;
+}
 
 .buttons li:hover {
     background-color: red;
@@ -48,28 +51,30 @@ a {
     background-image: url(./images/pic01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 18rem;
+    /* background-attachment: fixed; */
+    height: 40rem;
     
 }
 
 .Howdy {
     /* display: flex;
     flex-direction: column; */
-    margin-top: 6rem;
+    margin-top: 17rem;
     padding-top: 1.5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    background-color: black;
-    height: 6rem;
+    padding-left: 17rem;
+    padding-right: 7rem;
+    background-color: rgb(41, 40, 40);
+    height: 10rem;
     justify-content: center;
+    font-size: 2rem;
     
 
 }
 
-h5 {
+.Howdy p {
     text-align: center;
     /* height: 18rem; */
-    color: red;
+    color: rgb(158, 51, 69);
     padding-top: 1.3rem;
 }
 
