@@ -1,0 +1,90 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.caja1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 3rem;
+    height: 8rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 0% 33% 0% 33%;
+    font-size: 0.7rem;
+    list-style: none;
+}
+
+.buttons li:hover {
+    background-color: red;
+    padding: 0.5rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+/* h1 {
+    text-align: center;
+} */
+
+.caja2 {
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/pic01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 18rem;
+    
+}
+
+.Howdy {
+    /* display: flex;
+    flex-direction: column; */
+    margin-top: 6rem;
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: black;
+    height: 6rem;
+    justify-content: center;
+    
+
+}
+
+h5 {
+    text-align: center;
+    /* height: 18rem; */
+    color: red;
+    padding-top: 1.3rem;
+}
+
+h2 {
+    color: white;
+}
+
+.caja3 {
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.containercaja3 {
+    display: flex;
+    justify-content:center;
+
+}
