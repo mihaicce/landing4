@@ -85,6 +85,48 @@ h2 {
 
 .containercaja3 {
     display: flex;
-    justify-content:center;
+    justify-content: center;
+    width: 100%;
 
+}
+.cj3a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 20rem;
+}
+
+.cj3b {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 20rem;
+}
+.cj3c {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 20rem;
+    
+}
+.cj3a img {
+    padding-bottom: 2rem;
+}
+.cj3b img {
+    padding-bottom: 2rem;
+}
+.cj3c img {
+    padding-bottom: 2rem;
+}
+.cj3a h3 {
+    padding-bottom: 1rem;
+}
+.cj3b h3 {
+    padding-bottom: 1rem;
+}
+.cj3c h3 {
+    padding-bottom: 1rem;
 }
