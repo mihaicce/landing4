@@ -59,10 +59,10 @@ a {
 .Howdy {
     /* display: flex;
     flex-direction: column; */
-    margin-top: 17rem;
+    margin-top: 15rem;
     padding-top: 1.5rem;
     padding-left: 17rem;
-    padding-right: 7rem;
+    padding-right: 17rem;
     background-color: rgb(41, 40, 40);
     height: 10rem;
     justify-content: center;
