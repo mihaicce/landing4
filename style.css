@@ -271,7 +271,7 @@ h2 {
     /* FOOTER */
 
 .caja6 {
-    /* background-color: rgb(46, 43, 43); */
+    background-color: rgb(46, 43, 43);
     padding: 3rem 15rem 4rem 15rem; 
     display: flex;
 }
@@ -281,6 +281,7 @@ h2 {
     flex-direction: column;
     width: 80%rem;
     padding-bottom: 3rem;
+    
 }
 
 .caja6a p{
@@ -317,17 +318,26 @@ display: flex;
 flex-direction: column;
 
 }
+.caja6a h5, .caja6b h5 {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    color: white;
+}
 
 .caja6b {
     width: 40rem;
     padding-left: 2rem;
+    color: white;
 }
 
 .caja6b img {
     width: 18rem;
     height: 9rem;
     padding-bottom: 1.5rem;
-    padding-top: 1.5rem;  
+    padding-top: 1.5rem;
+}
+.caja6b p {
+    width: 18rem;
 }
 
 .caja6subsuba {
@@ -335,6 +345,7 @@ flex-direction: column;
     background-color: rgb(158, 51, 69);
     color: white;
     width: 6rem;
+    height: 2.8rem;
     
 }
 
@@ -356,6 +367,7 @@ flex-direction: column;
     margin-bottom: 2rem;
     margin-top: 1rem;
     border-radius: 0.5rem;
+    
 
 }
 
@@ -374,7 +386,60 @@ flex-direction: column;
 }
 
 .web {
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+
 }
 /* Ultima parte */
+.address {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+.mail {
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 1.7rem;
 
+
+}
+.phone {
+    display: flex;
+    gap: 4rem;
+
+}
+.caja6e {
+    width: 18rem;
+}
+.caja6e a {
+    color: white;
+} 
+.caja6e p {
+    color: grey;
+
+}
+.containercaja6cde h5 {
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+    color: white;
+}
+.address h5, .mail h5, .phone h5 {
+    font-size: 0.9rem;
+}
+.caja6f {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(71, 66, 66);
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 3rem;
+}
+.caja6f a {
+    color: rgb(187, 181, 181);
+}
+.caja6f p {
+    color: gray;
+}
