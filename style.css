@@ -362,11 +362,7 @@ flex-direction: column;
 .containercaja6cde {
     display: flex;
     flex-direction: row;
-<<<<<<< HEAD
-    gap: 1rem;
-=======
     gap: 1.5rem;
->>>>>>> 1e1b79e76b9b52dac5086223013d2f76c9b548bd
 }
 
 .caja6c p, .caja6d p {
@@ -380,5 +376,6 @@ flex-direction: column;
 .web {
     font-size: 2rem;
 }
+
 /* Ultima parte */
 
