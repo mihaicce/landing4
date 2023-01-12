@@ -358,6 +358,7 @@ flex-direction: column;
 .containercaja6cde {
     display: flex;
     flex-direction: row;
+    gap: 1rem;
 }
 
 /* Ultima parte */
