@@ -145,9 +145,42 @@
 
         </div>
     </div>
-    <form action="">
-        <h2>Formulario de contacto</h2>
+    <form>
+        <div class="containerformulario">
+  
+            <h2>Formulario de Contacto</h2>
+            <div class="espacio-arriba">
+            <label for="nombreusuario" >Nombre</label>
+            <input type="text" name="nombreusuario" id="nombreusuario" required />
+            </div>
+            <br>
+            <div>
+                <label for="apellidos">Apellidos</label>
+                <input type="text" name="apellidos" id="apellidos" />
+            </div>
+            <br>
+            <div>
+                <label for="correoelectronico">Email</label>
+                <input type="email" name="correoelectronico" id="correoelectronico" value="info@gmail.com" required/>
+            </div>
+            <br>
+            <div>
+                <label for="telefono">Telefono</label>
+                <input type="number" name="telefono" id="telefono" required/>
+            </div>
+            <br>
+            <div>
+                <label for="comentario">Comentario</label>
+                <textarea name="comentario" id="comentario" required></textarea>
+            </div>
+            <br>
+            <div>
+                <button style="padding: 10px 20px; border-radius: 10px;" type="submit">Enviar</button>
+                </div>
+            </div>
+        </div>
     </form>
+  
 <footer>
     <div class="caja6">
         <div class="containercaja6">
