@@ -280,6 +280,7 @@ h2 {
     display: flex;
     flex-direction: column;
     width: 80%rem;
+    padding-bottom: 3rem;
 }
 
 .caja6a p{
@@ -333,11 +334,14 @@ flex-direction: column;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     background-color: rgb(158, 51, 69);
     color: white;
+    width: 6rem;
     
 }
 
 .caja6subsuba p {
-    font-size: larger;
+    font-size: small;
+    text-align: center;
+    padding-top: 1.5rem;
     color: white;
 }
 
@@ -358,7 +362,19 @@ flex-direction: column;
 .containercaja6cde {
     display: flex;
     flex-direction: row;
+    gap: 1.5rem;
 }
 
+.caja6c p, .caja6d p {
+    text-decoration: underline;
+    color: grey;
+    font-size: smaller;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.web {
+    font-size: 2rem;
+}
 /* Ultima parte */
 
