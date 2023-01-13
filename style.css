@@ -96,6 +96,7 @@ h2 {
     display: flex;
     justify-content: center;
     width: 100%;
+    gap: 2rem;
 
 }
 .cj3a {
@@ -104,6 +105,8 @@ h2 {
     text-align: center;
     align-items: center;
     max-width: 20rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .cj3b {
@@ -113,6 +116,8 @@ h2 {
     align-items: center;
     max-width: 20rem;
     box-shadow: 6px 0px 30px grey;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .cj3c {
     display: flex;
@@ -120,8 +125,12 @@ h2 {
     text-align: center;
     align-items: center;
     max-width: 20rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     
 }
+
+
 .cj3a img {
     padding-bottom: 2rem;
 }
@@ -146,6 +155,7 @@ h2 {
     justify-content: center;
     padding-top: 3rem;
     gap: 0.5rem;
+    padding-bottom: 3rem;
     
 }
 .btnred {
@@ -155,6 +165,7 @@ h2 {
     padding-right: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    border-radius: 0.3rem;
 }
 .btnblack {
     background-color: black;
@@ -163,14 +174,15 @@ h2 {
     padding-right: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    border-radius: 0.3rem;
     }
+
     .caja4 {
     display: flex;
     flex-direction: column;
     background-color: whitesmoke;
-
-    
     }
+
     .caja4a p{
     max-width: 15rem;
     gap: 1rem;
@@ -199,6 +211,7 @@ h2 {
         text-align: center;
         padding-top: 3rem;
         padding-bottom: 3rem;
+        
     
     }
     .btncaja4 {
@@ -463,4 +476,49 @@ flex-direction: column;
 
 .fa-linkedin {
     color: lightgray;
+}
+
+/* Formulario */
+
+.containerformulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background-color: whitesmoke;
+}
+
+.containerformulario h2 {
+    color: black;
+    padding-bottom: 1.5rem;
+}
+
+.textform {
+    font-size: medium;
+    color: black;
+    font-weight: bold;
+}
+
+.textform input, textarea {
+    border-radius: 0.5rem;
+    height: 2rem;
+    border: none;
+}
+.enviar button:hover {
+    color: white;
+    background-color: rgb(158, 51, 69);
+    
+}
+
+.enviar button {
+    border-radius: 0.9rem;
+    padding: 0.9rem 0.9rem;
+}
+
+/* MEDIA Queries */
+
+@media screen and (min-width: 481px) and (max-width: 835px) {
+    
 }
