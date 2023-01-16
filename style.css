@@ -167,6 +167,28 @@ h2 {
 
 /* CAJA 4 */
 
+.myportafolio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.linea1 {
+    border-top: 0.1rem solid gray;
+    width: 22rem;
+    margin-right: 1rem;
+    
+   
+  }
+  .linea2 {
+    border-top: 0.1rem solid gray;
+    width: 22rem;
+    margin-left: 1rem;
+  }
+   
+  
+
 .caja4 {
     display: flex;
     flex-direction: column;
@@ -517,7 +539,8 @@ h4 {
 
 /* MEDIA Queries */
 
-@media screen and (min-width: 481px) and (max-width: 835px) {
+/* @media screen and (min-width: 481px) and (max-width: 835px) { */
+    @media screen and (max-width: 835px) {
     .caja1 {
         height: 7rem;
     }
@@ -533,8 +556,7 @@ h4 {
         align-items: center;
     }
     .caja2 {
-        background-size: contain;
-        height: 16rem;
+             height: 16rem;
     }
 
     .Howdy {
@@ -586,5 +608,46 @@ h4 {
     .caja6f {
         margin-left: 0;
         margin-right: 0;
+    }
+    .linea1, .linea2 {
+        width: 10rem;
+    }
+}
+@media screen and (max-width: 481px){
+    .buttons {
+        font-size: 0.8rem;
+    }
+    .Howdy {
+        /* margin-bottom: 6rem; */
+        height: 1.5rem;
+        margin-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .Howdy p {
+        font-size: 1rem;
+    }
+    .Howdy h2 {
+        font-size: 1rem;
+        margin-left: 2rem;
+    }
+    .caja2 {
+        margin-bottom: -4rem;
+        background-size: contain;
+    }
+    .caja3 {
+        padding-top: 0rem;
+    }
+    .caja5 {
+        margin-left: 2rem;
+    }
+    .containercaja5 {
+        width: 14rem;
+        /* padding-left: 2rem; */
+        margin-left: 2rem;
+    }
+    .caja5a, .caja5b {
+
+        padding-left: 3rem;
     }
 }
